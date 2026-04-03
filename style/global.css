@@ -14,13 +14,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 * {
   margin: 0;
   padding: 0;
-  list-style: none !important;
+  list-style: none;
   outline: none;
   font-family: "Raleway", sans-serif;
 }
@@ -36,8 +37,7 @@ a {
 
 .width-limiter {
   width: 100%;
-  max-width: 1440px;
-  padding: 0px 20px;
+  max-width: 1100px;
 }
 
 .dark-overlay {
@@ -47,5 +47,5 @@ a {
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: 0.5;
+  opacity: 0.6;
 }
