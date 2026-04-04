@@ -27,9 +27,9 @@
 }
 
 .header .address__content {
-  max-width: 205px; 
   display: flex;
   flex-direction: column;
+  max-width: 205px; 
   gap: 4px;
   margin-right: 63px;
 }
@@ -37,7 +37,6 @@
 .header .address a {
   text-decoration: underline;
   text-underline-offset: 4px;
-
 }
 
 .navbar {
@@ -57,10 +56,10 @@
 
 
 .navbar__list {
-  display: grid;
-  grid-auto-flow: column;  
-  align-items: center;  
   list-style: none;
+  display: grid;
+  align-items: center;  
+  grid-auto-flow: column;  
 }
 
 .navbar__item {
@@ -84,7 +83,7 @@
 }
 
 .navbutton.active {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .header .logo-holder-wrapper {
